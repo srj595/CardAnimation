@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardTilt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <img src="./images/headph.jpg" alt="product">
+            <div class="card-body">
+                <div class="card-title">Glassmorphism</div>
+                <div class="card-disc">Lorem   quisquam ipsa nulla.backLorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem excepturi voluptatum libero?</div>
+                <div class="read-more">
+                    <a href="#" >Read more</a>
+                </div>
+            </div>
+
+            
+        </div>
+         <div class="card">
+            <img src="./images/car.jpg" alt="product">
+            <div class="card-body">
+                <div class="card-title">Glassmorphism</div>
+                <div class="card-disc">Lorem   quisquam ipsa nulla.backLorem ipciunt esse delectus expedita quas et voluptates nonquod architecto <sapiente class="lorem30"></sapiente> avoluptatum libero?</div>
+                <div class="read-more">
+                    <a href="#" >Read more</a>
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.1/vanilla-tilt.min.js" integrity="sha512-xTXLkWCanTzPE4g+vyMXdJ1MYKwuhdJqxNfPDE8sHnwwHBXTZY0VNWBiCRiDtGEtLzmLkK5GCSXshPCP2kt8Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script type="text/javascript">
+	// VanillaTilt.init(document.querySelector(".card"), {
+	// 	max: 25,
+	// 	speed: 400
+	// }); -->
+	
+	//It also supports NodeList
+	 VanillaTilt.init(document.querySelectorAll(".card"));
+</script>
+
+
+
+</body>
+</html> 
